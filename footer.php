@@ -1,5 +1,5 @@
 		<?php
-			// Test
+			
 		do_action( 'ava_before_footer' );	
 			
 		global $avia_config;
