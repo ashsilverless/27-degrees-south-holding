@@ -1,0 +1,206 @@
+/* Have fun adding your style here :) - PS: At all times this file should contain a comment or a rule, otherwise opera might act buggy :( */
+
+/* General Custom CSS */
+
+.master-border{content:'';position:fixed;background:white;top:0;left:0;z-index:1000}
+.master-border.top{width:100%;height:10px}
+.master-border.top:after{content:'';position:fixed;bottom:0;width:100%;height:10px;background:white}
+.master-border.left{width:10px;height:100%}
+.master-border.left:after{content:'';position:fixed;left:initial;right:0;width:10px;height:100%;background:white}
+
+
+.logo {
+	margin-top: 40px;
+	overflow: visible;
+}
+
+.logo a {
+  height: auto;
+}
+
+.logo img {
+    filter:brightness(500%);
+    width: 500px !important;
+    height: auto;
+    margin-top: 50%;
+}
+
+h2 {
+    letter-spacing: 5px;
+    line-height: 1.4em;
+    font-size: 39px;
+    text-align: center;
+}
+
+h2 span {
+    display: block;
+    font-size: 60px;
+}
+
+.logomark {
+    width:40%;
+}
+
+.copy  p {
+    width: 55%;
+    margin: 2em auto;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-weight: 100;
+    color: white;
+}
+
+.copy a.button {
+text-decoration: none;
+    margin: 0 1em 1em;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+    border: 3px solid white;
+    display: inline-block;
+    width: 270px;
+}
+
+.main_color .primary-background, .main_color .primary-background a, div .main_color .button, .main_color #submit, .main_color input[type='submit'], .main_color .small-preview:hover, .main_color .avia-menu-fx, .main_color .avia-menu-fx .avia-arrow, .main_color.iconbox_top .iconbox_icon, .main_color .iconbox_top a.iconbox_icon:hover, .main_color .avia-data-table th.avia-highlight-col, .main_color .avia-color-theme-color, .main_color .avia-color-theme-color:hover, .main_color .image-overlay .image-overlay-inside:before, .main_color .comment-count, .main_color .av_dropcap2, #top #wrap_all .main_color .av-menu-button-colored > a .avia-menu-text, .main_color .av-colored-style .av-countdown-cell-inner, .responsive #top .main_color .av-open-submenu.av-subnav-menu > li > a:hover, #top .main_color .av-open-submenu.av-subnav-menu li > ul a:hover {
+    background-color: #151618;
+    color: #ffffff;
+    border-color: #151618;
+    font-size: 0.75em;
+}
+
+.agentmarks {
+    width:200px;
+}
+
+.sticker {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: 100;
+    width: 200px;
+    height: 200px;
+    background: #151618;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.sticker p {
+  font-family: 'Lato', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 76px;
+}
+
+#top .av_font_icon a {
+    color: inherit;
+    display: inline-block;
+}
+
+.av_font_icon {
+    display: inline-block;
+    margin: 0 1em;
+    }
+
+.social {
+    position: fixed;
+    bottom: 50px;
+    z-index: 100;
+    width: 100%;
+    text-align: center;
+    color: white;	
+}
+
+/*
+Desktop Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the desktop view of your site */
+
+@media only screen and (min-width: 768px) {
+  /* Add your Desktop Styles here */
+
+}
+
+@media only screen and (max-width: 767px) {
+	
+html.responsive #top #wrap_all #header {
+    position: absolute;
+}
+
+#top #wrap_all .av_header_transparency {
+    background-color: transparent;
+    }
+
+.responsive #top #wrap_all .main_menu {
+    display: none;
+}
+
+.responsive #top .logo {
+
+}
+
+.responsive .logo img {
+
+}
+
+
+
+.sticker {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+  padding: 0;
+}
+
+.sticker p {
+  font-size: 15px;
+  margin: 1em;
+}
+
+.responsive #top .slideshow_caption h2 {
+    font-size: 14px !important;
+}
+
+h2 span {
+    display: block;
+    font-size: 24px;
+}
+
+.copy p {
+    width: 100%;
+    font-size: 16px;
+    }
+
+.avia-section.av-minimum-height .container .content {
+  vertical-align: bottom !important;
+  }
+
+
+.logomark {
+  width: 75%;
+}
+
+.mobile-hide {
+    display: none !important;
+}
+
+
+
+
+/*
+Mobile Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the Mobile and Tablet Portrait view */
+
+@media only screen and (max-width: 450px) {
+  /* Add your Mobile Styles here */
+.copy p {
+    font-size: 12px;
+}
